@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         {
             title: "Grupo +18 (Em breve)",
-            url: "#",
+            url: "https://chat.whatsapp.com/BcX7KydGEVu6A5kIkbxsac?mode=wwt",
             icon: "users",
             description: "Link será disponibilizado em breve",
             comingSoon: true
@@ -115,4 +115,5 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Create floating hearts periodically
     setInterval(createFloatingHeart, 1000);
+
 });
