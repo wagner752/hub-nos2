@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>No2 Sex Shop | Links</title>
+<script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <style type="text/tailwindcss">
+        @layer utilities {
+            .bg-custom {
+                background-image: url('https://trfqaqkulsqhqrva.public.blob.vercel-storage.com/Hero/baixados.jpg');
+                background-size: cover;
+                background-position: center;
+                background-attachment: fixed;
+            }
+            .link-card {
+                backdrop-filter: blur(10px);
+                background-color: rgba(0, 0, 0, 0.7);
+                border: 1px solid rgba(255, 0, 0, 0.3);
+                transition: all 0.3s ease;
+            }
+            .link-card:hover {
+                transform: translateY(-5px);
+                border-color: rgba(255, 0, 0, 0.7);
+                box-shadow: 0 10px 20px rgba(255, 0, 0, 0.2);
+            }
+        }
+    </style>
+</head>
+<body class="bg-black text-white min-h-screen bg-custom">
+    <div class="container mx-auto px-4 py-8">
+        <!-- Header -->
+        <header class="flex flex-col items-center mb-8">
+            <img src="https://trfqaqkulsqhqrva.public.blob.vercel-storage.com/Hero/Logo%20Completa.png" 
+                 alt="NoirDesire Logo" 
+                 class="w-64 h-auto mb-4">
+            <h1 class="text-2xl font-bold text-center text-red-500 mb-2">NO2 SEX SHOP</h1>
+            <p class="text-gray-300 text-center">Confira nossos links</p>
+</header>
+
+        <!-- Links Container -->
+        <div class="max-w-md mx-auto space-y-4" id="linksContainer">
+            <!-- Links will be added dynamically by JavaScript -->
+        </div>
+
+        <!-- Social Links -->
+        <div class="flex justify-center space-x-4 mt-8">
+            <a href="https://www.instagram.com/nos2_s.shop" class="text-red-500 hover:text-white transition-colors">
+                <i data-feather="instagram"></i>
+            </a>
+            <a href="https://www.tiktok.com/@nos2.sexshop" class="text-red-500 hover:text-white transition-colors">
+                <i data-feather="play-circle"></i>
+            </a>
+</div>
+
+        <!-- Footer -->
+        <footer class="text-center text-xs text-gray-500 mt-12">
+            <p>© 2025 No2 Sex Shop. Todos os direitos reservados.</p>
+<p class="mt-1">Conteúdo exclusivo para maiores de 18 anos.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+        feather.replace();
+    </script>
+<script src="https://huggingface.co/deepsite/deepsite-badge.js"></script>
+</body>
+</html>
