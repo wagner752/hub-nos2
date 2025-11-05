@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
             description: "84 99193-7731"
         },
         {
-            title: "Grupo +18 (Em breve)",
+            title: "Grupinho +18",
             url: "https://chat.whatsapp.com/BcX7KydGEVu6A5kIkbxsac?mode=wwt",
             icon: "users",
             description: "Entre no nosso grupinho +18",
@@ -117,4 +117,5 @@ document.addEventListener('DOMContentLoaded', function() {
     setInterval(createFloatingHeart, 1000);
 
 });
+
 
